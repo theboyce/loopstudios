@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-desktop-bg bg-cover bg-center h-[100vh] relative">
+    <div className=" bg-mobile-bg md:bg-desktop-bg bg-cover bg-center h-[100vh] relative">
       <Navbar toggleMenu={toggleMenu} />
       {open && <MobileNav toggleMenu={toggleMenu} />}
     </div>

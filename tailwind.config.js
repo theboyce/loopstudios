@@ -19,6 +19,7 @@ export default {
       },
       backgroundImage: {
         'desktop-bg': "url('/src/assets/images/desktop/image-hero.jpg')",
+        'mobile-bg': "url('/src/assets/images/mobile/image-hero.jpg')",
       },
     },
   },
