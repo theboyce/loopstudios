@@ -3,7 +3,7 @@ import Logo from './Logo';
 
 const Navbar = ({ toggleMenu }) => {
   return (
-    <div className="px-[1.5rem] md:px-[7rem] h-[8rem]">
+    <div className=" h-[8rem] ">
       <nav className="flex justify-between items-center h-[100%] ">
         <Logo />
         <ul className="sm:hidden md:flex justify-between gap-10 ">
@@ -30,7 +30,7 @@ const Navbar = ({ toggleMenu }) => {
           height="16"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="#FFF" fill-rule="evenodd">
+          <g fill="#FFF" fillRule="evenodd">
             <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
           </g>
         </svg>

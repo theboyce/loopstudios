@@ -3,8 +3,8 @@ import Logo from './Logo';
 
 const MobileNav = ({ toggleMenu }) => {
   return (
-    <div className="h-[100vh] w-[100vw] bg-black flex flex-col justify-around gap-10 px-[1.5rem] py-2 absolute top-0 md:hidden">
-      <div className="flex justify-between">
+    <div className="h-[100vh] w-[100vw] bg-black flex flex-col justify-around gap-10 px-[1.5rem] py-2 fixed z-40 top-0 left-0 md:hidden">
+      <d className="flex justify-between">
         <Logo />
         <svg
           onClick={() => toggleMenu()}
@@ -18,7 +18,7 @@ const MobileNav = ({ toggleMenu }) => {
             fill-rule="evenodd"
           />
         </svg>
-      </div>
+      </d>
       <nav>
         <ul className="flex flex-col gap-14 justify-center">
           <li className="font-content font-bold text-white text-[24px]">
