@@ -6,7 +6,7 @@ const VrSection = () => {
       <div className="sm:flex-col lg:flex-row flex items-end">
         <div className=" flex-1">
           <img
-            src="/src/assets/images/mobile/image-interactive.jpg"
+            src="/src/assets/images/image-interactive.jpg"
             alt=""
             className="px-[1.5rem] lg:p-0 w-full"
           />
