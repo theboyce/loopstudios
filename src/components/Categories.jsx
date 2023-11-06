@@ -65,7 +65,7 @@ const Categories = () => {
   return (
     <div>
       <div className="px-[7rem] sm:hidden lg:block mb-[10rem]">
-        <div className="flex justify-between items-center mb-[6rem]">
+        <div className="flex justify-between items-center mb-[4rem]">
           <h2 className="text-[3rem] font-content ">OUR CREATIONS</h2>
           <button className="border text-black border-black px-14 py-3 font-content">
             SEE ALL
